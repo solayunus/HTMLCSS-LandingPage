@@ -209,7 +209,8 @@ section {
     color: #faa541;
 }
 
-.hero h1, .hero h2 {
+.hero h1,
+.hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
@@ -242,7 +243,7 @@ section {
     text-align: center;
 }
 
-.banner-text > div:last-child {
+.banner-text>div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -267,7 +268,7 @@ section {
     text-align: center;
 }
 
-.category-text > div {
+.category-text>div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
@@ -289,7 +290,7 @@ section {
 }
 
 .full-banner:before {
-    content: '';
+    content: "";
     position: absolute;
     border: 1px solid white;
     top: 30px;
@@ -300,7 +301,7 @@ section {
 }
 
 .full-banner-image {
-    flex: 0 0 53.333333%;
+    flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
     background-position: top center;
@@ -308,7 +309,7 @@ section {
 }
 
 .full-banner-sidebar {
-    flex: 0 0 46.666667%;
+    flex: 0 0 41.666667%;
     background-color: #364147;
     text-transform: uppercase;
     padding: 30px;
@@ -318,15 +319,13 @@ section {
 .full-banner-sidebar h4 {
     font-size: 40px;
     font-weight: 700;
-    color: 637f94;
+    color: #637f94;
     font-style: italic;
     line-height: 1;
 }
 
 .full-banner-sidebar h4:after {
-    content: '';
-    position: absolute;
-    border: 1px solid white;
+    content: "";
     width: 100px;
     height: 1px;
     background-color: #faa541;
@@ -334,13 +333,13 @@ section {
     display: block;
 }
 
-.full-banner-sidebar > div:nth-of-type(1) {
+.full-banner-sidebar>div:nth-of-type(1) {
     font-style: 60px;
     font-weight: 700;
     line-height: 1;
 }
 
-.full-banner-sidebar > div:nth-of-type(2) {
+.full-banner-sidebar>div:nth-of-type(2) {
     font-style: 25px;
     font-weight: 200;
     letter-spacing: 3px;
